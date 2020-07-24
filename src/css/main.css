@@ -1,0 +1,62 @@
+/** @format */
+
+:root {
+	--dark-green-ground-color: #5daf5d;
+	--light-green-ground-color: #7ac17a;
+	--dark-parrat-color: #5d992f;
+	--light-parrot-color: #6db032;
+	--dark-shadow-green: #aed1ae;
+	--light-shadow-green: #c9e2ce;
+	--dark-sky-color: #a5d6fa;
+}
+
+body {
+	overflow-x: hidden;
+}
+.main_section {
+	/* padding-top: 5%; */
+	padding: 0%;
+	background-color: none;
+	color: darkgreen;
+	width: 100%;
+	height: 120vh;
+}
+.main_section img {
+	width: 100%;
+	height: auto;
+}
+
+.sec_section {
+	background-color: var(--dark-green-ground-color);
+	transform: translateY(-25%);
+	padding-top: 10%;
+	color: white;
+	height: 70vh;
+}
+.growing_plant {
+	height: 80vh;
+}
+.third_section {
+	background-color: white;
+	color: darkgreen;
+	height: 100vh;
+}
+.third_section img {
+	width: 100%;
+	height: auto;
+}
+.third_section h1 {
+	padding-top: 5%;
+}
+.fourth_section {
+	padding-top: 15%;
+	background-color: var(--dark-sky-color);
+	color: white;
+	height: 80vh;
+}
+.nav {
+	color: darkgreen;
+}
+.nav a {
+	color: darkgreen;
+}

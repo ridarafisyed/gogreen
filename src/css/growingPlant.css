@@ -1,0 +1,50 @@
+/** @format */
+
+/* .growing_plant_container {
+	position: relative;
+}
+.growing_plant {
+	position: absolute;
+} */
+
+.growing_plant {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+}
+.growing_plant:before {
+	content: " ";
+	display: block;
+}
+.growing_plant img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 72%;
+	bottom: 0%;
+}
+/* 
+.growing_plant {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	width: 80%;
+	max-width: 450px;
+	height: 783px / 2;
+	z-index: 1;
+}
+
+.growing_plant:before {
+	content: " ";
+	display: block;
+	padding-top: 87%;
+}
+
+.growing_plant img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+} */
