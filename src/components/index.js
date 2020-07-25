@@ -7,6 +7,7 @@ import { PollutionSection } from "./pollutionSection";
 import { SecSection } from "./secSection";
 import { FourthSection } from "./fourthSection";
 import { GrowingPlant } from "./growingPlant";
+import { FooterSection } from "./footerSection";
 
 const index = () => {
 	return (
@@ -23,11 +24,14 @@ const index = () => {
 			<div className="growing_plant" id="growing_plant">
 				<GrowingPlant />
 			</div>
+			<div className="fourth_section" id="fourth_section">
+				<FourthSection />
+			</div>
 			<div className="third_section" id="third_section">
 				<PollutionSection />
 			</div>
-			<div className="fourth_section" id="fourth_section">
-				<FourthSection />
+			<div className="footer_section" id="footer_section">
+				<FooterSection />
 			</div>
 		</>
 	);

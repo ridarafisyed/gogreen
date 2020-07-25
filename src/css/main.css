@@ -54,6 +54,12 @@ body {
 	color: white;
 	height: 80vh;
 }
+.footer_section {
+	padding-top: 5%;
+	background-color: var(--dark-parrat-color);
+	color: white;
+	height: 80vh;
+}
 .nav {
 	color: darkgreen;
 }
