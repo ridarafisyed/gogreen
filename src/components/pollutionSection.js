@@ -607,7 +607,7 @@ export const PollutionSection = () => {
 										id="Vector_96"
 										d="M302 355.035H380.98C356.04 346.135 341.63 347.025 341.63 347.025C341.63 347.025 323.06 347.025 302 355.035Z"
 										fill="#98D4C2"
-										fill-opacity="0.00"
+										fillOpacity="0.00"
 									/>
 									<path
 										id="Vector_97"
@@ -647,7 +647,7 @@ export const PollutionSection = () => {
 										id="Vector_103"
 										d="M484 317.743H589.57C556.23 305.843 536.97 307.033 536.97 307.033C536.97 307.033 512.15 307.033 484 317.743Z"
 										fill="#98D4C2"
-										fill-opacity="0.00"
+										fillOpacity="0.00"
 									/>
 									<path
 										id="Vector_104"
@@ -672,7 +672,7 @@ export const PollutionSection = () => {
 										id="Vector_107"
 										d="M694 340.466H777.17C750.91 331.096 735.73 332.026 735.73 332.026C735.73 332.026 716.18 332.026 694 340.466Z"
 										fill="#98D4C2"
-										fill-opacity="0.00"
+										fillOpacity="0.00"
 									/>
 									<path
 										id="Vector_108"
@@ -713,13 +713,13 @@ export const PollutionSection = () => {
 								y2="52.398"
 								gradientUnits="userSpaceOnUse"
 							>
-								<stop stop-color="#A5D6FA" />
+								<stop stopColor="#A5D6FA" />
 								<stop
 									offset="0.3311"
-									stop-color="#BFE2FB"
-									stop-opacity="0.6689"
+									stopColor="#BFE2FB"
+									stopOpacity="0.6689"
 								/>
-								<stop offset="1" stop-color="white" stop-opacity="0" />
+								<stop offset="1" stopColor="white" stopOpacity="0" />
 							</linearGradient>
 							<linearGradient
 								id="paint1_linear"
@@ -729,38 +729,40 @@ export const PollutionSection = () => {
 								y2="753.565"
 								gradientUnits="userSpaceOnUse"
 							>
-								<stop offset="0.191" stop-color="#5D992F" />
+								<stop offset="0.191" stopColor="#5D992F" />
 								<stop
 									offset="0.1976"
-									stop-color="#5F9A31"
-									stop-opacity="0.9918"
+									stopColor="#5F9A31"
+									stopOpacity="0.9918"
 								/>
 								<stop
 									offset="0.4934"
-									stop-color="#A3C588"
-									stop-opacity="0.6262"
+									stopColor="#A3C588"
+									stopOpacity="0.6262"
 								/>
 								<stop
 									offset="0.7345"
-									stop-color="#D4E4C8"
-									stop-opacity="0.3281"
+									stopColor="#D4E4C8"
+									stopOpacity="0.3281"
 								/>
 								<stop
 									offset="0.9093"
-									stop-color="#F3F8F0"
-									stop-opacity="0.1121"
+									stopColor="#F3F8F0"
+									stopOpacity="0.1121"
 								/>
-								<stop offset="1" stop-color="white" stop-opacity="0" />
+								<stop offset="1" stopColor="white" stopOpacity="0" />
 							</linearGradient>
 						</defs>
 					</svg>
 				</div>
-				<div className="col col-md-6">
+				<div className="col col-md-6 leftSide">
 					<h1 className="display-3 text-center" ref={text1.ref}>
 						Pollution Free Envirnment
 					</h1>
 					<p className="lead text-center" ref={text2.ref}>
-						Dont boost WiFi signals they just give signal <br />
+						Low Carban, more trees, efficent way to make a city, natural sources
+						for power...
+						<br />
 						<br />
 						<button className="btn btn-success" ref={text3.ref}>
 							Learn More

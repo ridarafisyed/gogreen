@@ -6,3 +6,6 @@
 	transform-origin: center;
 	transform-box: fill-box;
 }
+.leftSide {
+	padding: 5%;
+}

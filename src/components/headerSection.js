@@ -18,14 +18,7 @@ export const HeaderSection = () => {
 		keyframes: textLeftFrame,
 		timing: textUpTiming,
 	});
-	const text2 = useWebAnimations({
-		keyframes: textLeftFrame,
-		timing: textUpTiming,
-	});
-	const text3 = useWebAnimations({
-		keyframes: textLeftFrame,
-		timing: textUpTiming,
-	});
+
 	const floating_cloud = useWebAnimations({
 		keyframes: [
 			{ transform: "translateX(-30%)" },

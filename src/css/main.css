@@ -14,8 +14,6 @@ body {
 	overflow-x: hidden;
 }
 .main_section {
-	/* padding-top: 5%; */
-	padding: 0%;
 	background-color: none;
 	color: darkgreen;
 	width: 100%;
@@ -31,15 +29,16 @@ body {
 	transform: translateY(-25%);
 	padding-top: 10%;
 	color: white;
-	height: 70vh;
+	height: 80vh;
 }
 .growing_plant {
+	padding-bottom: 20%;
 	height: 80vh;
 }
 .third_section {
 	background-color: white;
 	color: darkgreen;
-	height: 100vh;
+	height: 120vh;
 }
 .third_section img {
 	width: 100%;
@@ -52,17 +51,11 @@ body {
 	padding-top: 15%;
 	background-color: var(--dark-sky-color);
 	color: white;
-	height: 80vh;
+	height: 100vh;
 }
 .footer_section {
 	padding-top: 5%;
 	background-color: var(--dark-parrat-color);
 	color: white;
 	height: 80vh;
-}
-.nav {
-	color: darkgreen;
-}
-.nav a {
-	color: darkgreen;
 }

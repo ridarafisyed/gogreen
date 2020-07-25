@@ -25,10 +25,11 @@ export const GrowingPlant = () => {
 	return (
 		<>
 			<div className="row align-items-center growing_plant_container">
-				<div className="col col-md-6">
-					<h1 className="display-3 text-center">Pollution Free Envirnment</h1>
+				<div className="col col-md-6 left-side">
+					<h1 className="display-3 text-center">Each one, Plant one.</h1>
 					<p className="lead text-center">
-						Dont boost WiFi signals they just give signal <br />
+						plant a tree so that next generation can get air for free.
+						<br />
 						<br />
 						<button className="btn btn-success ">Learn More</button>
 					</p>

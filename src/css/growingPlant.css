@@ -1,16 +1,21 @@
 /** @format */
-
-/* .growing_plant_container {
-	position: relative;
+:root {
+	--dark-green-ground-color: #5daf5d;
+	--light-green-ground-color: #7ac17a;
+	--dark-parrat-color: #5d992f;
+	--light-parrot-color: #6db032;
+	--dark-shadow-green: #aed1ae;
+	--light-shadow-green: #c9e2ce;
+	--dark-sky-color: #a5d6fa;
 }
-.growing_plant {
-	position: absolute;
-} */
-
+.left-side {
+	padding: 5%;
+}
 .growing_plant {
 	display: block;
 	overflow: hidden;
 	width: 100%;
+	color: darkgreen;
 }
 .growing_plant:before {
 	content: " ";
