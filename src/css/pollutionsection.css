@@ -1,0 +1,8 @@
+/** @format */
+
+#turbineWings1,
+#turbineWings2,
+#turbineWings3 {
+	transform-origin: center;
+	transform-box: fill-box;
+}
