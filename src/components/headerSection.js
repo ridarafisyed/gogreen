@@ -7,17 +7,18 @@ import Grid from "@material-ui/core/Grid";
 
 export const HeaderSection = () => {
 	const textLeftFrame = [
-		{ transform: "translateX(-100px)", opacity: 0 },
+		{ transform: "translateX(-200px)", opacity: 0 },
 		{ transform: "translateX(0px)", opacity: 1 },
 	];
-	const textUpTiming = {
-		duration: 1000,
+
+	const textLeftTiming = {
+		duration: 3000,
 		iterations: 1,
 		easing: "ease-out",
 	};
 	const text1 = useWebAnimations({
 		keyframes: textLeftFrame,
-		timing: textUpTiming,
+		timing: textLeftTiming,
 	});
 
 	const floating_cloud = useWebAnimations({

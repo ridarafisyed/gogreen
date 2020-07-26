@@ -10,6 +10,9 @@
 .navbar a:hover {
 	color: darkgreen;
 }
+.navbar i {
+	color: var(--dark-parrat-color);
+}
 
 .bg-color {
 	background-color: transparent !important;

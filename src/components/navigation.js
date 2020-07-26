@@ -75,15 +75,16 @@ export const Navigation = () => {
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#third_section">
-								Green City Solution
-							</a>
-						</li>
-						<li className="nav-item">
 							<a className="nav-link" href="#fourth_section">
 								Restoration
 							</a>
 						</li>
+						<li className="nav-item">
+							<a className="nav-link" href="#third_section">
+								Green City Solution
+							</a>
+						</li>
+
 						<li className="nav-item">
 							<a className="nav-link" href="#footer_section">
 								Contact us

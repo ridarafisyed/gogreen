@@ -21,7 +21,7 @@ const index = () => {
 			<div className="sec_section" id="sec_section">
 				<SecSection />
 			</div>
-			<div className="growing_plant" id="growing_plant">
+			<div className="growing_plant_section" id="growing_plant">
 				<GrowingPlant />
 			</div>
 			<div className="fourth_section" id="fourth_section">
