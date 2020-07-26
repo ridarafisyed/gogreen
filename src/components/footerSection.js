@@ -2,12 +2,28 @@
 
 import React from "react";
 import { Grid } from "@material-ui/core";
+import useWebAnimations from "@wellyshen/use-web-animations";
 import "../css/footersection.css";
 
 export const FooterSection = () => {
+	const textLeftFrame = [
+		{ transform: "translateY(100px)", opacity: 0 },
+		{ transform: "translateY(0px)", opacity: 1 },
+	];
+
+	const textLeftTiming = {
+		duration: 3000,
+		iterations: 1,
+		delay: 6000,
+		easing: "ease-out",
+	};
+	const textEffect = useWebAnimations({
+		keyframes: textLeftFrame,
+		timing: textLeftTiming,
+	});
 	return (
 		<div className="footer">
-			<Grid container className="row align-items-left">
+			<Grid container className="row align-items-left" ref={textEffect.ref}>
 				<Grid item xs={12} sm={4} className="col col-sm-4">
 					<h1 className="">About Us</h1>
 					<p className=" text-justify">

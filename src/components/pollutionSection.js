@@ -7,8 +7,8 @@ import "../css/pollutionsection.css";
 
 export const PollutionSection = () => {
 	const textUpFrame = [
-		{ transform: "translateY(100px)", opacity: 0 },
-		{ transform: "translateY(0px)", opacity: 1 },
+		{ transform: "translateX(100px)", opacity: 0 },
+		{ transform: "translateX(0px)", opacity: 1 },
 	];
 	const textUpTiming = {
 		duration: 1000,
