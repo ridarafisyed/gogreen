@@ -1,13 +1,5 @@
 /** @format */
-:root {
-	--dark-green-ground-color: #5daf5d;
-	--light-green-ground-color: #7ac17a;
-	--dark-parrat-color: #5d992f;
-	--light-parrot-color: #6db032;
-	--dark-shadow-green: #aed1ae;
-	--light-shadow-green: #c9e2ce;
-	--dark-sky-color: #a5d6fa;
-}
+
 .left-side {
 	padding: 5%;
 }
@@ -28,28 +20,14 @@
 	width: 72%;
 	bottom: 0%;
 }
-/* 
-.growing_plant {
-	position: absolute;
-	top: 0;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	overflow: hidden;
-	width: 80%;
-	max-width: 450px;
-	height: 783px / 2;
-	z-index: 1;
+@media screen and (max-width: 420px) {
+	.growing_plant {
+		width: 100%;
+	}
+	.display-3 {
+		font-size: 2.5rem;
+	}
+	.growing_plant img {
+		width: 50%;
+	}
 }
-
-.growing_plant:before {
-	content: " ";
-	display: block;
-	padding-top: 87%;
-}
-
-.growing_plant img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-} */

@@ -1,26 +1,31 @@
 /** @format */
 
-:root {
-	--dark-green-ground-color: #5daf5d;
-	--light-green-ground-color: #7ac17a;
-	--dark-parrat-color: #5d992f;
-	--light-parrot-color: #6db032;
-	--dark-shadow-green: #aed1ae;
-	--light-shadow-green: #c9e2ce;
-	--dark-sky-color: #a5d6fa;
-}
-.nav {
-	padding-left: 5em;
+.navbar {
 	color: var(--dark-parrat-color);
 	z-index: 10;
 }
-.nav a {
+.navbar a {
 	color: var(--dark-parrat-color);
 }
-.nav a:hover {
+.navbar a:hover {
 	color: darkgreen;
 }
 
-.navbar-toggler {
+.bg-color {
+	background-color: transparent !important;
 	color: var(--dark-parrat-color);
+}
+.bg-color i {
+	color: var(--dark-parrat-color);
+}
+.bg-color-scrolled {
+	background-color: var(--dark-green-ground-color) !important;
+	color: white;
+}
+.bg-color-scrolled a {
+	color: white;
+}
+
+.bg-color-scrolled i {
+	color: white;
 }

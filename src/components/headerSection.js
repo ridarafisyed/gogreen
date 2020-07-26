@@ -3,6 +3,7 @@
 import React from "react";
 import useWebAnimations from "@wellyshen/use-web-animations";
 import "../css/headerSection.css";
+import Grid from "@material-ui/core/Grid";
 
 export const HeaderSection = () => {
 	const textLeftFrame = [
@@ -1502,17 +1503,20 @@ ZGSOr4Ssqy94CVOYNQd1bkdi6hFQAwxpHdoiuA0Uc/zdP/4X/9k="
 						</g>
 					</svg>
 				</div>
-				<div className="col col-sm-6 mx-auto">
-					<div ref={text1.ref}>
-						<h1 className="display-3 text-center">Let's Breathe!</h1>
-						<p className="lead text-center">
-							Plant More Trees <br />
-							<br />
-							<button className="btn btn-success ">Click Here</button>
-						</p>
-					</div>
-				</div>
-				<div className="col col-sm-6"></div>
+				<Grid container spacing={3}>
+					<Grid item xs={12}>
+						<div className="col col-sm-6 mx-auto">
+							<div ref={text1.ref}>
+								<h1 className="display-3 text-center">Let's Breathe!</h1>
+								<p className="lead text-center">
+									Plant More Trees <br />
+									<br />
+									<button className="btn btn-success ">Click Here</button>
+								</p>
+							</div>
+						</div>
+					</Grid>
+				</Grid>
 			</div>
 		</>
 	);

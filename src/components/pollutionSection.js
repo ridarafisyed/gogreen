@@ -2,6 +2,7 @@
 
 import React from "react";
 import useWebAnimations from "@wellyshen/use-web-animations";
+import Grid from "@material-ui/core/Grid";
 import "../css/pollutionsection.css";
 
 export const PollutionSection = () => {
@@ -54,8 +55,8 @@ export const PollutionSection = () => {
 	});
 	return (
 		<>
-			<div className="row align-items-center">
-				<div className="col col-md-6 image-container">
+			<Grid container className="row align-items-center">
+				<Grid item xs={12} sm={6} className="col col-md-6 image-container">
 					<svg
 						width="1000"
 						height="800"
@@ -754,8 +755,8 @@ export const PollutionSection = () => {
 							</linearGradient>
 						</defs>
 					</svg>
-				</div>
-				<div className="col col-md-6 leftSide">
+				</Grid>
+				<Grid item xs={12} sm={6} className="col col-md-6 leftSide">
 					<h1 className="display-3 text-center" ref={text1.ref}>
 						Pollution Free Envirnment
 					</h1>
@@ -768,8 +769,8 @@ export const PollutionSection = () => {
 							Learn More
 						</button>
 					</p>
-				</div>
-			</div>
+				</Grid>
+			</Grid>
 		</>
 	);
 };

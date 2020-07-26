@@ -33,6 +33,9 @@ const index = () => {
 			<div className="footer_section" id="footer_section">
 				<FooterSection />
 			</div>
+			<footer className="text-center bg-success text-light">
+				@Rida Rafi Syed
+			</footer>
 		</>
 	);
 };

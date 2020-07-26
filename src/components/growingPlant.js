@@ -34,13 +34,15 @@ export const GrowingPlant = () => {
 						<button className="btn btn-success ">Learn More</button>
 					</p>
 				</div>
-				<div className="col col-md-6 growing_plant">
-					<img
-						src={growingplant}
-						className="growing_plant_series"
-						alt="Green City Pollution Free setup"
-						ref={growingPlant.ref}
-					/>
+				<div className="col col-md-6">
+					<div className="growing_plant">
+						<img
+							src={growingplant}
+							className="growing_plant_series"
+							alt="Green City Pollution Free setup"
+							ref={growingPlant.ref}
+						/>
+					</div>
 				</div>
 			</div>
 		</>
